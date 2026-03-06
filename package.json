@@ -1,0 +1,10 @@
+{
+  "name": "actium-tunnel",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @actium/desktop dev",
+    "build": "pnpm --filter @actium/desktop build",
+    "relay:dev": "pnpm --filter @actium/relay dev",
+    "relay:build": "pnpm --filter @actium/relay build"
+  }
+}
